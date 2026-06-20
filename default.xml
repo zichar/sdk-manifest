@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="base" fetch="https://github.com/zichar/" />
+
+  <default remote="github" revision="main" sync-j="4" />
+
+  <project name="build" remote="base" path="build" revision="master" />
+  <project name="build" remote="base" path="modules" revision="master" />
+
+</manifest>
