@@ -5,7 +5,7 @@
 
   <default remote="base" revision="main" sync-j="4" />
 
-  <project name="build" remote="base" path="build" revision="master" />
-  <project name="modules" remote="base" path="modules" revision="master" />
+  <project name="build" remote="base" path="build" revision="main" />
+  <project name="modules" remote="base" path="modules" revision="main" />
 
 </manifest>
